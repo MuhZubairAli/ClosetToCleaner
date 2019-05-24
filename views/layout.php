@@ -12,7 +12,6 @@
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-    <?php $this->load_partial('footer') ?>
     <?php $this->load_partial('scripts') ?>
 </body>
 </html>
