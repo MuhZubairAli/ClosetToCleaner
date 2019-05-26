@@ -7,9 +7,9 @@ jQuery(document).ready(function( $ ) {
 
   // Hero rotating texts
   $("#hero .rotating").Morphext({
-    animation: "flipInX",
+    animation: "fadeInUp",
     separator: ",",
-    speed: 3000
+    speed: 5000
   });
   
   // Initiate the wowjs

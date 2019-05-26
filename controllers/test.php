@@ -13,8 +13,4 @@ class test extends Controller
         parent::__construct();
     }
 
-    function index(){
-        $str = "home/index/45";
-        var_dump(str_replace('/',DS,$str));
-    }
 }

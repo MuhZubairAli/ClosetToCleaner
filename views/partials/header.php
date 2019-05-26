@@ -12,9 +12,9 @@ Header Section
             <ul class="nav-menu">
                 <li class="menu-active"><a href="/">Home</a></li>
                 <li><a href="/services">Service & Pricing</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-                <li><a href="#apartment-communities">Apartment Communities</a></li>
-                <li><a href="#contact">Sign Up</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/apartment">Apartment Communities</a></li>
+                <li><a href="/signup">Sign Up</a></li>
             </ul>
         </nav>
         <!-- #nav-menu-container -->
