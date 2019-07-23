@@ -12,13 +12,13 @@ Deliverance Section
 <!--                    <path d="M6.8 3.3C3.4 3.3.6 6.5.6 9.5H13c0-3-2.8-6.2-6.2-6.2z"></path>-->
 <!--                    <path fill="currentColor" d="M14.9 23.2c5.8 0 10.5-4.1 10.5-10.5H4.3c0 6.4 4.8 10.5 10.6 10.5z"></path>-->
 <!--                </svg>-->
-                <img src="/assets/imgs/hanger.png" alt="">
-                <h1>“Deliver”ance from Laundry </h1>
+                <!-- <img src="/assets/imgs/hanger.png" alt=""> -->
+                <h1>“Deliver”-ance from Laundry</h1>
                 <h3>
-                    Home delivery dry cleaning and laundry service that will change your life - or at least your schedule.
-                    With our laundry and dry cleaning delivery services, simply drop off your clothes and we’ll collect, clean, and deliver your clothes back to you.
-                    Not home?
-                    We’ll store your items in our lockers for you to pick up whenever you’re ready. Until then, enjoy the extra free time!
+                Our home delivery dry cleaning and laundry service will change your life—or at least your schedule.
+                With our mobile laundry and dry-cleaning delivery services, simply drop your clothes off, and we’ll collect, clean, and deliver them back to you. 
+                Not home?
+                We’ll store your items in our lockers for you to pick up whenever you’re ready. Until then, enjoy the extra free time!
                 </h3>
             </div>
         </div>

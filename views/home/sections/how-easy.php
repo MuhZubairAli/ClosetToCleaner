@@ -12,28 +12,32 @@ How easy Section
                 <img src="<?php $this->url('step-1.png', 'img', true) ?>" alt="Locker">
                 <span>STEP 1</span>
                 <p>
-                    Give us your dirty clothes, Place your items in the color-coded service bags and leave them in a CTC locker.
+                    <em>Give us your dirty clothes</em>
+                    <br>Place your items in the color-coded service bags and leave them in a CTC locker.
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 step">
                 <img src="<?php $this->url('step-2.png', 'img', true) ?>" alt="Locker">
                 <span>STEP 2</span>
                 <p>
-                    We make it clean. Whether you need dry cleaning, washing, folding, —our expert cleaners will take care of everything.
+                    <em>We make it clean</em>
+                    <br>Whether you need dry cleaning, washing, folding, —our expert cleaners will take care of everything.
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 step">
                 <img src="<?php $this->url('step-3.png', 'img', true) ?>" alt="Locker">
                 <span>STEP 3</span>
                 <p>
-                    We drop it off THE NEXT DAY. Your freshly-cleaned items are returned directly to your home or locker within 24 business hours (meaning weekends are the exception).
+                    <em>We drop it off THE NEXT DAY</em>
+                    <br>Your freshly-cleaned items are returned directly to your home or locker within 24 business hours <small>(meaning weekends are the exception).</small>
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 step">
                 <img src="<?php $this->url('step-4.png', 'img', true) ?>" alt="Locker">
                 <span>STEP 4</span>
                 <p>
-                    You're all set. Go and be great, knowing your wardrobe is impeccably clean.
+                    <em>You're all set</em>
+                    <br>Go and be great, knowing your wardrobe is impeccably clean.
                 </p>
             </div>
         </div>

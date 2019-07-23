@@ -4,9 +4,14 @@
 .relative {
     position: relative;
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Fira Sans', sans-serif;
+h1,h2,h3 {
+  font-family: 'Lato', sans-serif;
 }
+
+h4,h5,h6 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
 #video-modal {
     display: none;
     padding-top: 3px;
@@ -16,13 +21,16 @@ h1,h2,h3,h4,h5,h6 {
 .padding-0 {
     padding: 0;
 }
+.margin-top-bottom {
+    margin: 15px auto;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   background: #fff;
   color: #000000;
-  font-family: Verdana, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 a {
@@ -124,6 +132,8 @@ ul.top-lg li a{
   text-align: right;
   text-decoration: none;
   padding: 10px 0;
+  color: rgb(20, 22, 61);
+  font-family: 'Lato', sans-serif;
 }
 ul.top-lg li a:hover{
   color: #000;
@@ -156,25 +166,30 @@ ul.top-lg li:hover::after {
 div.top-menu-container-lg img {
   height: 25px;
   width: auto;
-  margin: 10px 0;
+  margin: 50px 0;
 }
 
 h1.heading {
     font-size: 5em;
     font-weight: bold;
-    margin: 80px auto 50px auto;
-    font-family: 'Fira Sans', sans-serif;
+    /* margin: 20px auto 50px auto; */
+    margin: 20px auto;
 }
 
 h4.sub-heading{
-  font-size: 1.8em;
-    font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5em;
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff;
 }
+
 h4.play {
     font-size: 1.5em;
     margin: 40px auto;
-    font-family: 'Josefin Sans', sans-serif;
     cursor: pointer;
+}
+h1.heading, h4.play {
+  color: rgb(20, 22, 61);
+  font-family: 'Lato', sans-serif;
 }
 
 div.hero-img {
@@ -367,8 +382,9 @@ div.hero-img img {
   padding: 10px 15px;
   text-decoration: none;
   display: inline-block;
-  color: #000000;
-  font-family: 'Fira Sans', sans-serif;
+  color: rgb(20, 22, 61);
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
   font-weight: bold;
   font-size: 14px;
   outline: none;
@@ -556,19 +572,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 h1.section-title {
     font-size: 4em;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 30px 0;
-    color: #03363d;
+    color: rgb(20, 22, 61);
 }
 
 @media (max-width: 1080px) {
     h1.section-title {
-        font-size: 3em;
+        font-size: 4em;
     }
 }
 @media (max-width: 768px) {
     h1.section-title {
-        font-size: 2em;
+        font-size: 3em;
     }
 }
 
@@ -576,9 +592,9 @@ h1.section-title {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgb(33, 32, 96);
+  background: #dddddd;
   padding: 30px 0;
-  color: #fff;
+  color: #000;
 }
 
 ul.footer-menu, ul.social-media-links {
@@ -594,23 +610,26 @@ ul.footer-menu li {
 }
 
 ul.footer-menu li a {
-    color: #dddddd;
+    color: #999;
     font-weight: normal;
+    display: inline-block;
+    margin-bottom: 5px;
     transition: 0.5s;
 }
 
 ul.footer-menu li:first-of-type {
     margin: 15px auto;
+    display: inline-block;
 }
 ul.footer-menu li:first-of-type a {
     font-weight: bold;
-    color: #ffffff;
+    color: #555;
 }
 ul.footer-menu li a:hover {
-    color: #A1D7D3;
+    color: #222;
 }
 hr.sm-separator{
-    border-color: #2a2979;
+    border-color: #cdcdcd;
 }
 
 ul.social-media-links {
@@ -630,8 +649,8 @@ ul.social-media-links li a {
     font-size: 1.5em;
     color: #ffffff;
     transition: 0.5s;
-    border: 1px solid #2a2979;
-    background: #2a2979;
+    border: 1px solid #cdcdcd;
+    background: #cdcdcd;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;

@@ -1,4 +1,4 @@
-    <div class="col-md-12">
+    <!-- <div class="col-md-12">
         <ul class="nav-menu top-sm">
             <li><a href="">Login</a></li>
             <li><a href="">Product Support</a></li>
@@ -7,7 +7,7 @@
             <li><a href="">English</a></li>
         </ul>
     </div>
-    <div class="clearfix"></div>
+    <div class="clearfix"></div> -->
     <div class="col-md-12 top-menu-container-lg margin-b-40 wow fadeInDown">
         <table border="0" width="100%">
             <tr>

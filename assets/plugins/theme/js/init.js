@@ -107,4 +107,16 @@ jQuery(document).ready(function( $ ) {
       return false;
   });
 
+  $(document).ready(function(){
+      if(window.location.href.search(/[#]/g) > -1) {
+          console.log("Scrolling Document up by nav bar pixels");
+          var interval = setInterval(function(){
+            console.log("Scrolling Document up by nav bar pixels");
+            var y = $(window).scrollTop();
+            $(window).scrollTop(y-78);
+            clearInterval(interval);
+          },1000)
+      }
+  })
+
 });

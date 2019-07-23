@@ -1,7 +1,7 @@
 <!--==========================
 Skip Small Talk Section
 ============================-->
-<section id="small-talk">
+<section id="get-started">
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-6 col-md-offset-6">

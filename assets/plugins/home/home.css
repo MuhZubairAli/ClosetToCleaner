@@ -4,7 +4,7 @@
 #deliverance {
     padding: 100px 0;
     position: relative;
-    height: 900px;
+    height: 600px;
     background: #f3f0ee;
     overflow: hidden;
 }
@@ -12,24 +12,28 @@
 #deliverance div {
     background-color: transparent;
 }
+
 #deliverance .left-img, #deliverance .right-img {
     position: absolute;
-    top : -216px;
-    height: 1116px;
-    width: 50%;
+    top: 0;
+    /* top : -216px; */
+    height: 600px;
+    width: 400px;
+    /* height: 816px; */
+    /* width: 50%; */
     z-index: 0;
 }
 
 #deliverance .left-img {
     left: 0;
-    background: url("/assets/imgs/convo-left-l.png");
+    background: url("/assets/imgs/clouds-left-side.png");
     background-repeat: no-repeat;
     background-position: top left;
 }
 
 #deliverance .right-img {
     right: 0;
-    background: url("/assets/imgs/convo-right-l.png");
+    background: url("/assets/imgs/clouds-right-side.png");
     background-repeat: no-repeat;
     background-position: top right;
 }
@@ -68,6 +72,7 @@
 
     #deliverance {
         padding: 70px 0;
+        height: auto;
     }
 
     .deliverance-content {
@@ -134,36 +139,42 @@
 }
 /* small talk Section
 --------------------------------*/
-#small-talk {
-    background: url(/assets/imgs/talk-video-still.jpg) fixed center center;
+#small-talk,#get-started {
+    background: url(/assets/imgs/locker-left.png) fixed center center;
     background-size: cover;
     padding: 80px 0;
     height: 70vh;
 }
-
+#get-started {
+    background: url("/assets/imgs/suface-chatt-bg.png") fixed center center;
+    background-size: cover;
+}
 @media (max-width: 768px) {
-    #small-talk {
+    #small-talk,#get-started {
         background: #dddddd;
         height: auto;
     }
 }
 h1.section-title.padding {
     padding: 30px;
+    color: rgb(20, 22, 61);
+    font-family: 'Lato', sans-serif;
 }
 p.st-text {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 100;
     padding: 0 30px;
     color: #333333;
     letter-spacing: 1px;
 }
+
 /* service pricing Section
 --------------------------------*/
-#service-pricing {
-    background: url(/assets/imgs/bg-text-module.png) center center;
+#service-pricing, #welcome-kit {
+    background-color:#a1d7d3;
+    background: url(/assets/imgs/swirls-pattern.png) center center;
     background-size: cover;
-    background-color: rgb(161,215,211);
     position: relative;
     padding: 150px 0;
     height: auto;
@@ -179,37 +190,51 @@ p.st-text {
     -webkit-background-size: 70%;
     background-size: 70%;
 }
-
+#welcome-kit {
+    background: #a1d7d3;
+    padding: 50px 0;
+}
+#welcome-kit .right-img {
+    margin: 170px auto 0 auto;
+}
+#welcome-kit .right-img img {
+    max-width: 100%;
+}
+#welcome-kit .sp-text {
+    font-size: 1.2em;
+    letter-spacing: 0;
+    padding: 0;
+}
 @media (max-width: 768px) {
-    #service-pricing {
+    #service-pricing, #welcome-kit {
         padding: 80px 0;
-        background: rgb(161,215,211);
+        background: #a1d7d3;
         height: auto;
     }
-    #service-pricing .right-img {
+    #service-pricing .right-img, #welcome-kit .right-img {
         display: none;
     }
 }
 
 @media (max-width: 1000px) {
-    #service-pricing .right-img {
+    #service-pricing .right-img, #welcome-kit .right-img {
         display: none;
     }
 }
 
 p.sp-text {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 100;
     padding: 5px 0;
-    color: #333333;
+    color: #ffffff;
     letter-spacing: 1px;
 }
 
 /* how easy Section
 --------------------------------*/
 #how-easy {
-    background: url(/assets/imgs/pattern-bottom.png) top center repeat-x;
+    background: url(/assets/imgs/triangle-header-pattern.png) top center repeat-x;
     background-color: #f3f0ee;
     position: relative;
     padding-top: 170px;
@@ -220,6 +245,7 @@ p.sp-text {
 .step {
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2em;
     font-weight: 100;
     padding: 0 30px;
     letter-spacing: 1px;
@@ -231,6 +257,7 @@ p.sp-text {
 .step p, .step span{
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
     padding: 0 15px;
 }
 
@@ -240,7 +267,11 @@ p.sp-text {
     color: #999999;
     margin: 10px auto ;
 }
-
+.step p em {
+    font-weight: bold;
+    display: block;
+    margin: 1px 0;
+}
 .step img {
     margin: 15px auto;
 }

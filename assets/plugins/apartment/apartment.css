@@ -4,6 +4,10 @@
     color: #ffffff;
 }
 
+#hero * {
+    color: #ffffff;
+}
+
 #mobile-nav-toggle i {
     color: #ffffff;
 }
@@ -26,13 +30,10 @@ ul.top-lg li::after {
     background: #ffffff;
 }
 
-#hero * {
-    color: #ffffff;
-}
 
 #steps {
     background: url(/assets/imgs/pattern-bottom.png) top center repeat-x;
-    background-color: #f3f0ee;
+    background-color: #ffffff;
     position: relative;
     padding-top: 170px;
     padding-bottom: 50px;
@@ -103,6 +104,49 @@ ul.top-lg li::after {
 }
 
 
+/* Benefits Section
+--------------------------------*/
+#benefits {
+    background: url(/assets/imgs/laundy-man-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 80px 0;
+    height: auto;
+    min-height: 70vh;
+}
+
+h1.section-title.padding {
+    padding: 30px;
+}
+p.st-text, ul.benefits li {
+    font-size: 1.2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    padding: 0 30px;
+    color: #333333;
+    letter-spacing: 1px;
+}
+ul.benefits {
+    list-style: none;
+}
+
+ul.benefits li {
+    background: url("/assets/imgs/ul-li.png") top left no-repeat;
+    line-height: 24px;
+    padding-left: 50px;
+}
+/*ul.benefits li:before {*/
+    /*content: "";*/
+    /*border-color: transparent #111;*/
+    /*border-style: solid;*/
+    /*border-width: 0.35em 0 0.35em 0.45em;*/
+    /*display: block;*/
+    /*height: 0;*/
+    /*width: 0;*/
+    /*left: -1em;*/
+    /*top: 0.9em;*/
+    /*position: relative;*/
+/*}*/
+
 @media (max-width: 990px) {
 
     div.hero-img img {
@@ -127,4 +171,10 @@ ul.top-lg li::after {
         margin: 50px auto;
         font-size: 1.3em;
     }
+
+    #benefits {
+        background: #dddddd;
+        height: auto;
+    }
+	
 }

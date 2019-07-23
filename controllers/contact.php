@@ -32,7 +32,39 @@ class contact extends Main
         $this->load_lib('Form',$_POST);
         if($this->form->validate($vConf)) {
             $this->load_lib("Mail");
-            $message = $_POST['message'];
+            $message = @"
+<div style='text-align: center;background: #dedede;padding: 50px 0;min-height: 100%;'>
+    <h3 class='text-align: center'>Message From <span style='color: navy'>ClosetToCleaners.com</span> Contact Form</h3>
+    <table style='width: 70%; margin: 25px auto auto 15%;border-collapse:collapse;text-align:left;background:#efefef' cellpadding='10' border='2'>
+        <tbody>
+            <tr>
+                <th style='min-width: 130px'>Sender Name</th>
+                <td>{$_POST['name']}</td>
+            </tr>
+            <tr>
+                <th>Sender Email</th>
+                <td>{$_POST['email']}</td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td>{$_POST['phone']}</td>
+            </tr>
+            <tr>
+                <th>Sender Role</th>
+                <td>{$_POST['type']}</td>
+            </tr>
+            <tr>
+                <th>Subject</th>
+                <td>{$_POST['subject']}</td>
+            </tr>
+            <tr>
+                <th>Message</th>
+                <td>{$_POST['message']}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+";
             $result = $this->mail->send($_POST['name'],$_POST['email'],$_POST['subject'],$message);
             if($result['status'])
                 echo "OK";
