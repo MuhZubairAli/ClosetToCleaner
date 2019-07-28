@@ -1,19 +1,19 @@
 #service-pricing {
-    background: url(/assets/imgs/pattern-bottom.png) bottom center repeat-x;
+    background: url(/assets/imgs/triangle-header-pattern.png) bottom center repeat-x;
     background-color: #A1D7D3;
     text-align: center;
-    padding: 90px 0 140px 0;
+    padding: 70px 0 160px 0;
 }
 
 h1.sp-title{
-    color: #03363d;
+    color: rgb(20, 22, 61);
     font-size: 4em;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 p.sp-text {
-    color: #03363d;
+    color: #ffffff;
     font-size: 1.5em;
     font-family: 'Fira Sans', sans-serif;
     letter-spacing: 2px;
@@ -21,17 +21,21 @@ p.sp-text {
 
 #fus{
     padding: 50px 0;
+    background: rgb(243,240, 238);
 }
 
+.select-location {
+    margin: 0 0 20px 15px;
+}
 ul.serviceblock-pricing {
     list-style: none;
-    margin: 20px auto;
+    margin: 80px auto 0 auto;
     padding: 0;
 }
 
 ul.serviceblock-pricing li {
     display: block;
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid #c5c5c5;
     font-size: 1.5em;
     margin: 15px 40px;
     padding: 5px 0;
@@ -50,8 +54,8 @@ ul.serviceblock-pricing li {
 }
 
 hr.separator {
-    border-top: 1px solid lightblue;
-    margin: 50px auto;
+    border-top: 1px solid #c5c5c5;
+    /* margin: 50px auto; */
 }
 
 .serviceblock-info {
@@ -66,16 +70,25 @@ hr.separator {
 .serviceblock-info p {
     font-size: 1.3em;
     margin: 20px;
-    font-family: 'Fira Sans', sans-serif;
+    color: rgb(20, 22, 61);
+    font-family: 'Lato', sans-serif;
 }
 
 .serviceblock-info h2 {
     font-family: 'Fira Sans', sans-serif;
+    color: rgb(20, 22, 61);
 }
 
 #faq {
-    background: #f3f0ee;
+    background: #ffffff;
     padding: 60px 0;
+}
+
+h3.cat {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h1.faq-title {
@@ -98,6 +111,7 @@ a.ing {
 
 #services {
     padding: 60px 0;
+    background: #f3f0ee;
 }
 
 ul.serviceblock-pricing.service-list li {
@@ -163,7 +177,9 @@ h2.service-list-title {
     .serviceblock-info img {
         display: none;
     }
-
+    .select-location {
+        margin: 0 0 20px 15px;
+    }
 
     h1.faq-title {
         font-size: 2em;

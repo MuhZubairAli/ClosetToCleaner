@@ -4,42 +4,60 @@ frequently used services
 <section id="fus">
     <div class="container wow fadeInUp">
         <div class="row">
+            <div class="col-md-12">
+                <div class="input-group select-location">
+                    <div class="input-group-addon">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <select class="form-control service">
+                        <option value="" selected disabled hidden>Choose location</option>
+                        <option value="north_carolina">North Carolina</option>
+                        <option value="virginia">Virginia</option>
+                        <option value="pennsylvania">Pennsylvania</option>
+                    </select>
+                </div>
+            </div>
+
             <div class="col-md-6 col-sm-12 serviceblock-info">
                 <h2>Frequently Used Dry Cleaning Services</h2>
-                <p>Here a quick list of our frequently requested dry cleaning services. For our full price list please
-                    <a href="#">Click Here</a>
+                <p>Here a quick list of our frequently requested dry cleaning services.
                 </p>
-                <img src="<?php $this->url('bag1.jpg', 'img', true) ?>" height="250" alt="">
+                <img src="<?php $this->url('bag1.png', 'img', true) ?>" alt="">
             </div>
             <div class="col-md-6 col-sm-12">
                 <ul class="serviceblock-pricing">
                     <li>
-                        Collar Shirt
-                        <span class="serviceblock-accent">Launder</span>
-                        <span class="serviceblock-cost">$2.59</span>
+                        Regular Laundry
+                        <span class="serviceblock-cost">$1.35 / lb</span>
                     </li>
                     <li>
-                        Collar Shirt
-                        <span class="serviceblock-accent">Folded</span>
-                        <span class="serviceblock-cost">$3.59</span>
+                        Bedding - Mattress
+                        <span class="serviceblock-accent">Duvet Cover</span>
+                        <span class="serviceblock-cost">$10.00</span>
                     </li>
                     <li>
-                        Collar Shirt
-                        <span class="serviceblock-accent">Handpress</span>
-                        <span class="serviceblock-cost">$6.25</span>
+                        Bedding
+                        <span class="serviceblock-accent">Comforter</span>
+                        <span class="serviceblock-cost">$15.00</span>
                     </li>
                     <li>
-                        Polo
-                        <span class="serviceblock-cost">$5.20</span>
+                        Bedding - Blanket
+                        <span class="serviceblock-accent">Throw</span>
+                        <span class="serviceblock-cost">$10.00</span>
                     </li>
                     <li class="has-break">
-                        Wash + Fold
-                        <span class="serviceblock-accent">12lb. Minimum</span>
-                        <span class="serviceblock-cost">$1.95/lb</span>
+                        Bath Mat
+                        <span class="serviceblock-cost">$5.00</span>
                     </li>
                     <li>
-                        Wash + Hang Dry
-                        <span class="serviceblock-cost">$4/pc</span>
+                        Hand Dry
+                        <span class="serviceblock-accent">First 4 items</span>
+                        <span class="serviceblock-cost">$2.00</span>
+                    </li>
+                    <li>
+                        Each Additional Hand Dry
+                        <span class="serviceblock-accent">First item</span>
+                        <span class="serviceblock-cost">$1.00</span>
                     </li>
                 </ul>
 				<div class="clearfix"></div>
@@ -49,60 +67,48 @@ frequently used services
         <div class="row">
             <div class="col-md-6 col-sm-12 pull-right serviceblock-info">
                 <h2>Frequently Used Wash & Fold Services</h2>
-                <p>Here a quick list of our frequently requested dry cleaning services. For our full price list please
-                    <a href="#">Click Here</a>
+                <p>Here a quick list of our frequently requested dry cleaning services.
                 </p>
-                <img src="<?php $this->url('bag2.jpg', 'img', true) ?>" alt="">
+                <img src="<?php $this->url('bag2.png', 'img', true) ?>" alt="">
             </div>
             <div class="col-md-6 col-sm-12">
                 <ul class="serviceblock-pricing">
                     <li>
+                        Shirts
+                        <span class="serviceblock-cost">$2.50</span>
+                    </li>
+                    <li>
                         Pants
-                        <span class="serviceblock-cost">$6.65</span>
+                        <span class="serviceblock-cost">$2.50</span>
                     </li>
                     <li>
-                        Sweater
-                        <span class="serviceblock-cost">$6.62</span>
+                        Blouses
+                        <span class="serviceblock-cost">$2.50</span>
                     </li>
                     <li>
-                        Blouse
-                        <span class="serviceblock-cost">$6.25</span>
-                    </li>
-                    <li>
-                        Vest
-                        <span class="serviceblock-cost">$5.92</span>
-                    </li>
-                    <li>
-                        Skirt
-                        <span class="serviceblock-cost">$6.49</span>
-                    </li>
-                    <li>
-                        Necktie
-                        <span class="serviceblock-cost">$6.13</span>
-                    </li>
-                    <li>
-                        Blazer
-                        <span class="serviceblock-cost">$7.20</span>
-                    </li>
-                    <li>
-                        Scarf
-                        <span class="serviceblock-cost">$6.13</span>
-                    </li>
-                    <li>
-                        Suit (2pc)
-                        <span class="serviceblock-cost">$13.85</span>
+                        Skirts
+                        <span class="serviceblock-cost">$5.50</span>
                     </li>
                     <li>
                         Dress
-                        <span class="serviceblock-cost">$12.45+</span>
+                        <span class="serviceblock-cost">$2.50</span>
                     </li>
                     <li>
-                        Coat
-                        <span class="serviceblock-cost">$10+</span>
+                        Sweater
+                        <span class="serviceblock-cost">$2.50</span>
                     </li>
                     <li>
-                        <span class="serviceblock-accent">Silk, cashmere, linen, beads + sequins</span>
-                        <span class="serviceblock-cost">$1+</span>
+                        Blazers
+                        <span class="serviceblock-accent">Sportscoat</span>
+                        <span class="serviceblock-cost">$2.50</span>
+                    </li>
+                    <li>
+                        Overcoat
+                        <span class="serviceblock-cost">$2.50</span>
+                    </li>
+                    <li>
+                        Conforters
+                        <span class="serviceblock-cost">$15.00+</span>
                     </li>
                 </ul>
 				<div class="clearfix"></div>

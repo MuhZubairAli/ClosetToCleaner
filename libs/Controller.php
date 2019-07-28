@@ -258,4 +258,8 @@ class Controller {
         return null;
     }
 
+    function is_menu_active($controller = "", $print_class = ""){
+        if(strcmp($controller,$_SERVER['route']['controller']) === 0)
+            echo $print_class;
+    }
 }

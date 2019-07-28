@@ -10,10 +10,10 @@ Header Section
 
         <nav id="nav-menu-container">
             <ul class="nav-menu">
-                <li class="menu-active"><a href="/">Home</a></li>
-                <li><a href="/services">Service & Pricing</a></li>
-                <li><a href="/contact">Contact Us</a></li>
-                <li><a href="/apartment">Apartment Communities</a></li>
+                <li class="<?php $this->is_menu_active('home','menu-active') ?>"><a href="/">Home</a></li>
+                <li class="<?php $this->is_menu_active('services','menu-active') ?>"><a href="/services">Service & Pricing</a></li>
+                <li class="<?php $this->is_menu_active('contact','menu-active') ?>"><a href="/contact">Contact Us</a></li>
+                <li class="<?php $this->is_menu_active('apartment','menu-active') ?>"><a href="/apartment">Apartment Communities</a></li>
                 <li><a href="/signup">Sign Up</a></li>
             </ul>
         </nav>

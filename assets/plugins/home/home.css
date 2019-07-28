@@ -146,8 +146,16 @@
     height: 70vh;
 }
 #get-started {
-    background: url("/assets/imgs/suface-chatt-bg.png") fixed center center;
+    background: url("/assets/imgs/suface-chatt-bg.gif") fixed center center;
     background-size: cover;
+}
+
+
+@media (max-width: 1080px) {
+    #small-talk,#get-started {
+        background: #dddddd;
+        height: auto;
+    }
 }
 @media (max-width: 768px) {
     #small-talk,#get-started {
@@ -172,8 +180,8 @@ p.st-text {
 /* service pricing Section
 --------------------------------*/
 #service-pricing, #welcome-kit {
-    background-color:#a1d7d3;
-    background: url(/assets/imgs/swirls-pattern.png) center center;
+    /* background-color:#a1d7d3; */
+    background: url(/assets/imgs/swirls-pattern.jpg) center center;
     background-size: cover;
     position: relative;
     padding: 150px 0;
