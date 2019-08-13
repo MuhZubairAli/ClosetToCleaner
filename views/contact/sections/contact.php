@@ -9,17 +9,23 @@ Contact Section
             <div class="col-sm-3 col-sm-push-2">
                 <div class="info">
                     <div>
-                        <h4>KEEP IN TOUCH!</h4>
+                        <h3>KEEP IN TOUCH!</h3>
                         <p>We enjoy keeping in contact with our customers and partners. Feel free to contact our friendly customer support staff via phone, or by using the form below.</p>
                     </div>
 
                     <div>
-                        <h4>DETAILS</h4>
-                        <p>support@closettocleaners.com</p>
+                        <h3>DETAILS</h3>
+                        <p style="margin:0 0 10px"><b>Phone #</b><br>
+                            1.866.333.4<b>CTC</b> &nbsp
+                            (1.866.333.4282)
+                        </p>
+                        <p><b>Email</b><br>
+                            support@closettocleaners.com</p>
+
                     </div>
 
                     <div>
-                        <h4>OFFICE HOURS</h4>
+                        <h3>OFFICE HOURS</h3>
                         <p><b>Monday – Friday</b> <br>
                             9:00am – 5:00pm EST</p>
                         <p><b>Saturday</b><br>
@@ -73,7 +79,7 @@ Contact Section
                         <div id="sendmessage">Your message has been sent. Thank you!</div>
                         <div id="errormessage"></div>
 
-                        <div class="text-center"><button type="submit" id="btn-submit" style="width: 100%;">Send Message</button></div>
+                        <div class="text-center"><button type="submit" id="btn-submit" class="btn-green" style="width: 100%;">Send Message</button></div>
                     </form>
 
                 </div>

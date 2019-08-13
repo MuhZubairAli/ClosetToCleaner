@@ -40,7 +40,7 @@ frequently used services
                     </li>
                     <li>
                         Skirts
-                        <span class="serviceblock-cost">$5.50</span>
+                        <span class="serviceblock-cost">$2.50</span>
                     </li>
                     <li>
                         Dress

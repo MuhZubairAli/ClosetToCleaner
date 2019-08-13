@@ -18,7 +18,14 @@ Frequently Asked Questions
                         </div>
                         <div id="question0" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                                <p>CTC has lockers located on each site at our partnering property locations. Each tenant is provided with bags for laundry and dry cleaning services. Just simply place and lock them inside one of the locker.</p>
+                            <p>CTC has lockers located on each site at our partnering property locations. Each tenant is provided with bags for laundry and dry cleaning services. Just simply place and lock them inside one of our lockers.</p>
+                            <p>To drop off your clothes for delivery:
+                                <ol>
+                                <li>Place clothes in an open, empty locker and shut the door</li>
+                                <li>On the lock, Press C, enter a four digit code of your choice, then the key sign</li>
+                                <li>Should you need to re-enter the locker, simply enter the code you previously entered, then the key sign</li>
+                                </ol>
+                            </p>
                             </div>
                         </div>
                     </div>
@@ -33,9 +40,9 @@ Frequently Asked Questions
                             <div class="panel-body">
                                 <p>Pick-up and delivery times are specific to each residence. To find out the designated times within your residence, you can:</p>
                                 <ol>
-                                    <li>Visit our lockers on the premises.</li>
-                                    <li>Ask your Leasing Manager for pick-up and delivery times.</li>
-                                    <li>Look on our website under your location on the service page. Click here to find your residence.</li>
+                                    <li>Visit the lockers  located in our apartment community</li>
+                                    <li>Ask your Leasing Manager for pick-up and delivery times</li>
+                                    <li>Reach out to us through the Contact Us Page, or give us a call at 1.866.333.4CTC</li>
                                 </ol>
                             </div>
                         </div>
@@ -73,9 +80,8 @@ Frequently Asked Questions
 
                                 </p>
                                 <ul>
-                                    <li>Reach out to your property managers in the leasing office</li>
-                                    <li>Write to us through our Contact Us page, or,</li>
-                                    <li>Call us at 888-888-8888</li>
+                                    <li>Visit your property managers in the leasing office to see if they have any on hand, OR</li>
+                                    <li>Reach out to us through the Contact Us Page, or call us at 1.866.333.4CTC</li>
                                 </ul>
                             </div>
                         </div>
@@ -90,19 +96,17 @@ Frequently Asked Questions
                         </div>
                         <div id="question4" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                                <p>If you are a resident of our apartment community partners, you are already signed up and ready to use the service, and will receive our Welcome Kit when moving in. If you did not receive a Welcome Kit, please:</p>
+                                <p>If you are a resident at one of our partnering apartment communities, your leasing agent will assist you in signing up for the service at the time of leasing your apartment, and will provide you our Welcome Kit when moving in. If you did not receive a Welcome Kit, please:</p>
 
                                 <ul>
                                     <li>Reach out to your property managers in the leasing office,</li>
                                     <li>Write to us through our Contact Us page, or,</li>
-                                    <li>Call us at 888-888-8888</li>
+                                    <li>Call us at 1.866.333.4CTC</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    <h3 class="cat">CLEANING</h3>
-                    
                     <div class="panel panel-default ">
                         <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question5">
                             <h4 class="panel-title">
@@ -113,28 +117,14 @@ Frequently Asked Questions
                         <div id="question5" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
                                 <p>
-                                We currently only service the tenants of our apartment community partners. If your property does not provide our service, please feel free to contact us so we may discuss future partnerships with your community.
+                                We currently only service the tenants of our partnering apartment communities. If your property does not provide our service, please feel free to contact us so we may discuss future partnerships with your community.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default ">
-                        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question6">
-                            <h4 class="panel-title">
-                                <a href="#" class="ing">What if I have a special request concerning a particular garment?</a>
-                            </h4>
-
-                        </div>
-                        <div id="question6" class="panel-collapse collapse" style="height: 0px;">
-                            <div class="panel-body">
-                                <p>
-                                We currently only service the tenants of our apartment community partners. If your property does not provide our service, please feel free to contact us so we may discuss future partnerships with your community.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
+                    
                     <h3 class="cat">PRICING & BILLING</h3>
+
                     <div class="panel panel-default ">
                         <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question7">
                             <h4 class="panel-title">
@@ -145,7 +135,7 @@ Frequently Asked Questions
                         <div id="question7" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
                                 <p>
-                                We will charge the debit or credit card provided for the cleaning at the time of delivery. We use the latest advancements and security for all of our credit transactions.
+                                We will charge the debit or credit card provided for the services used at the time of delivery.
                                 </p>
                             </div>
                         </div>
@@ -189,37 +179,13 @@ Frequently Asked Questions
                         </div>
                         <div id="question10" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                                <p>
-                                No. There is no minimum number of garments required. Just put whatever you need cleaned in the provided bag(s) and our CTC associate will pick up and deliver them within 24 hours.
-                                </p>
+                            <p><b>For Dry Cleaning:</b> There is no minimum number of garments required. Just put whatever you need cleaned in the provided Dry Cleaning Bag and our CTC associate will pick up and deliver them within 24 hours.</p>
+                            <p><b>For Wash & Fold Services:</b> Weight minimums may be assessed based in your area. Please be sure to visit the Services and Pricing for your location.</p>
+
                             </div>
                         </div>
                     </div>
                     <h3 class="cat">DELIVERY</h3>
-
-                    <div class="panel panel-default ">
-                        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question11">
-                            <h4 class="panel-title">
-                                <a href="#" class="ing">How do I drop off my laundry?</a>
-                            </h4>
-
-                        </div>
-                        <div id="question11" class="panel-collapse collapse" style="height: 0px;">
-                            <div class="panel-body">
-                                <em>
-                                CTC will have lockers located on each site at our partnering property locations. Each tenant will be provided with bags for laundry and dry cleaning services. Just simply place and lock them inside one of the lockers. 
-                                </em><br><br>
-                                <em>To drop off your clothes for delivery:</em>
-
-                                <ol>
-                                <li>Place clothes in an open, empty locker and shut the door.</li>
-                                <li>On the lock, Press C, enter a four digit code of your choice, then the key sign. </li>
-                                <li>Should you need to re-enter the locker, simply enter the code you previously entered, then the key sign.</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-
                     
                     <div class="panel panel-default ">
                         <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question12">
@@ -230,7 +196,7 @@ Frequently Asked Questions
                         </div>
                         <div id="question12" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                            <em>There are two options for delivery:</em>
+                            <p>There are two options for delivery:</p>
 
                             <ol>
                             <li>CTC can deliver the items directly to your home. This is our preferred method of delivery. </li>
@@ -286,11 +252,11 @@ Frequently Asked Questions
                         <div id="question15" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
                             
-                            <em>Pickup and delivery times are specific to each residence. To find out the designated times within your residence, you can:</em><br><br>
+                            <p>Pickup and delivery times are specific to each residence. To find out the designated times within your residence, you can:</p>
                             <ol>
-                            <li>Visit our lockers on the premises.</li>
-                            <li>Ask your Leasing Manager for pickup and delivery times</li>
-                            <li>Look on our website under your location on the service page. <a href="/locations">Click here to find your residence</a>.</li>
+                            <li>Visit the lockers  located in our apartment community</li>
+                            <li>Ask your Leasing Manager for pick-up and delivery times</li>
+                            <li>Reach out to us through the Contact Us Page, or give us a call at 1.866.333.4CTC</li>
                             </ol>
                             </div>
                         </div>
@@ -306,7 +272,7 @@ Frequently Asked Questions
                         </div>
                         <div id="question16" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                            <p>Should you not receive any article of clothing back or your clothes come back damaged, you are not completely satisfied with your order, or if something went wrong, please contact our friendly customer support staff immediately. We can be reached at 800-888-8888 or on our <a href="/contact">Contact Us</a> page.</li>
+                            <p>Should you not receive any article of clothing back or your clothes come back damaged, you are not completely satisfied with your order, or if something went wrong, please contact our friendly customer support staff immediately. We can be reached at 1.866.333.4CTC or on our <a href="/contact">Contact Us</a> page.</li>
                             </div>
                         </div>
                     </div>
