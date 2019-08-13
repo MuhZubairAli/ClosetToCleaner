@@ -13,7 +13,8 @@ Deliverance Section
 <!--                    <path fill="currentColor" d="M14.9 23.2c5.8 0 10.5-4.1 10.5-10.5H4.3c0 6.4 4.8 10.5 10.6 10.5z"></path>-->
 <!--                </svg>-->
                 <!-- <img src="/assets/imgs/hanger.png" alt=""> -->
-                <h1>“Deliver”-ance from Laundry</h1>
+                
+                <h1 class="section-title">“Deliver”-ance from Laundry</h1>
                 <h3>
                 Our home delivery dry cleaning and laundry service will change your life—or at least your schedule.
                 With our mobile laundry and dry-cleaning delivery services, simply drop your clothes off, and we’ll collect, clean, and deliver them back to you. 

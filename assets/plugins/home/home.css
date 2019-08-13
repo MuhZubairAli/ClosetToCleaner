@@ -47,18 +47,14 @@
     max-height: 75px;
     margin-bottom: 15px;
 }
-.deliverance-content h1 {
-    font-size: 4em;
-    margin: 15px auto 50px auto;
-    color: #03363d;
-}
+
 
 .deliverance-content h3 {
     color: #03363d;
     font-size: 1.7em;
     font-weight: normal;
     line-height: 1.4em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 @media (max-width: 1200px) {
@@ -68,19 +64,12 @@
     }
 
 }
+
 @media (max-width: 1080px) {
 
     #deliverance {
         padding: 70px 0;
         height: auto;
-    }
-
-    .deliverance-content {
-        margin: auto 30px;
-    }
-
-    .deliverance-content h1 {
-        margin: 0 auto 50px auto;
     }
 
     #deliverance .left-img {
@@ -100,12 +89,7 @@
         padding: 40px 0;
     }
     .deliverance-content {
-        margin: auto 40px;
-    }
-
-    .deliverance-content h1 {
-        font-size: 3em;
-        margin: 10px auto 25px auto;
+        margin: 40px;
     }
 
     .deliverance-content h3 {
@@ -123,18 +107,8 @@
     }
 
     .deliverance-content {
-        margin: auto 20px;
+        margin: 30px 20px;
     }
-
-    .deliverance-content h1 {
-        font-size: 2.5em;
-        margin: 10px auto 25px auto;
-    }
-
-    .deliverance-content h3 {
-        font-size: 1.4em;
-    }
-
 
 }
 /* small talk Section
@@ -151,7 +125,7 @@
 }
 
 
-@media (max-width: 1080px) {
+@media (max-width: 991px) {
     #small-talk,#get-started {
         background: #dddddd;
         height: auto;
@@ -180,64 +154,97 @@ p.st-text {
 /* service pricing Section
 --------------------------------*/
 #service-pricing, #welcome-kit {
-    /* background-color:#a1d7d3; */
+    background-color:#a1d7d3;
     background: url(/assets/imgs/swirls-pattern.jpg) center center;
     background-size: cover;
     position: relative;
-    padding: 150px 0;
+    padding: 60px 0;
     height: auto;
 }
 
 #service-pricing .right-img {
     position: absolute;
-    right: 30px;
-    bottom: 0px;
-    width: 40%;
-    height: 100%;
-    background: url(/assets/imgs/shopping-bags.jpg) center center no-repeat;
-    -webkit-background-size: 70%;
-    background-size: 70%;
+    right: 20%;
+    top: 0px;
+    width: 50%;
+    height: 90%;
+    background: url(/assets/imgs/tag.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+.sp-content {
+    margin: auto 30px;
+}
+p.sp-text {
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* welcom kit Section
+--------------------------------*/
 #welcome-kit {
     background: #a1d7d3;
     padding: 50px 0;
 }
 #welcome-kit .right-img {
-    margin: 170px auto 0 auto;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    width: 40%;
+    height: 75%;
+    background: url(/assets/imgs/ctc-boxes-white.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-#welcome-kit .right-img img {
-    max-width: 100%;
-}
+
 #welcome-kit .sp-text {
     font-size: 1.2em;
     letter-spacing: 0;
     padding: 0;
 }
+
+
+@media (max-width: 1080px) {
+    #welcome-kit h1.section-title {
+        font-size: 3em;
+    }
+    #welcome-kit .sp-text {
+        font-size: 1em;
+    }
+}
+@media (max-width: 991px) {
+    #service-pricing .right-img, #welcome-kit .right-img {
+        display: none;
+    }
+    #welcome-kit h1.section-title {
+        font-size: 4em;
+    }
+    #welcome-kit .sp-text {
+        font-size: 1.5em;
+    }
+}
+
+
 @media (max-width: 768px) {
     #service-pricing, #welcome-kit {
-        padding: 80px 0;
+        padding: 60px 0;
         background: #a1d7d3;
         height: auto;
     }
     #service-pricing .right-img, #welcome-kit .right-img {
         display: none;
     }
-}
-
-@media (max-width: 1000px) {
-    #service-pricing .right-img, #welcome-kit .right-img {
-        display: none;
+    #welcome-kit h1.section-title {
+        font-size: 3em;
     }
 }
 
-p.sp-text {
-    font-size: 1.5em;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 100;
-    padding: 5px 0;
-    color: #ffffff;
-    letter-spacing: 1px;
-}
 
 /* how easy Section
 --------------------------------*/
@@ -282,4 +289,11 @@ p.sp-text {
 }
 .step img {
     margin: 15px auto;
+}
+
+@media (max-width: 768px) {
+    #how-easy {
+        padding: 70px 0 40px 0;
+    }
+        
 }

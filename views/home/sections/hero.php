@@ -10,7 +10,7 @@ Hero Section
 
             <?php $this->load_partial('top-nav') ?>
 
-            <div class="wow fadeInDown col-md-12 margin-b-40">
+            <div class="wow fadeInDown hero-contents col-sm-6">
                 <h1 class="heading">Take a Load Off</h1>
                 <h4 class="sub-heading">Enjoy your extra time while we conveniently cancel laundry day</h4>
                 <h4 class="play video-modal"><i class="fa fa-play-circle"></i> See how it works</h4>

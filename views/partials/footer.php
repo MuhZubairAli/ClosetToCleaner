@@ -2,13 +2,13 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-md-push-1">
+                <div class="col-sm-2 col-sm-push-1">
                     <ul class="footer-menu">
                         <li><a href="">Home</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <ul class="footer-menu">
                         <li><a href="">Services & Pricing</a></li>
                         <li><a href="">Frequently Used Services</a></li>
@@ -17,13 +17,13 @@
                     </ul>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <ul class="footer-menu">
                         <li><a href="">Contact Us</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <ul class="footer-menu">
                         <li><a href="">Apartment & Communities</a></li>
                         <li><a href="">How It Works?</a></li>
@@ -34,14 +34,14 @@
                     </ul>
                 </div>
                 
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <ul class="footer-menu">
                         <li><a href="">Sign Up</a></li>
                         <li><a href="">Customer</a></li>
                         <li><a href="">Property Manager</a></li>
                     </ul>
                 </div>
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <hr class="sm-separator">
                     <ul class="social-media-links">
                         <li>
