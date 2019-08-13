@@ -27,53 +27,6 @@ frequently used services
             <div class="col-md-6 col-sm-12">
                 <ul class="serviceblock-pricing">
                     <li>
-                        Regular Laundry
-                        <span class="serviceblock-cost">$1.35 / lb</span>
-                    </li>
-                    <li>
-                        Bedding - Mattress
-                        <span class="serviceblock-accent">Duvet Cover</span>
-                        <span class="serviceblock-cost">$10.00</span>
-                    </li>
-                    <li>
-                        Bedding
-                        <span class="serviceblock-accent">Comforter</span>
-                        <span class="serviceblock-cost">$15.00</span>
-                    </li>
-                    <li>
-                        Bedding - Blanket
-                        <span class="serviceblock-accent">Throw</span>
-                        <span class="serviceblock-cost">$10.00</span>
-                    </li>
-                    <li class="has-break">
-                        Bath Mat
-                        <span class="serviceblock-cost">$5.00</span>
-                    </li>
-                    <li>
-                        Hand Dry
-                        <span class="serviceblock-accent">First 4 items</span>
-                        <span class="serviceblock-cost">$2.00</span>
-                    </li>
-                    <li>
-                        Each Additional Hand Dry
-                        <span class="serviceblock-accent">First item</span>
-                        <span class="serviceblock-cost">$1.00</span>
-                    </li>
-                </ul>
-				<div class="clearfix"></div>
-            </div>
-        </div>
-        <hr class="separator">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 pull-right serviceblock-info">
-                <h2>Frequently Used Wash & Fold Services</h2>
-                <p>Here a quick list of our frequently requested dry cleaning services.
-                </p>
-                <img src="<?php $this->url('bag2.png', 'img', true) ?>" alt="">
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <ul class="serviceblock-pricing">
-                    <li>
                         Shirts
                         <span class="serviceblock-cost">$2.50</span>
                     </li>
@@ -109,6 +62,54 @@ frequently used services
                     <li>
                         Conforters
                         <span class="serviceblock-cost">$15.00+</span>
+                    </li>
+                </ul>
+				<div class="clearfix"></div>
+            </div>
+            
+        </div>
+        <hr class="separator">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 pull-right serviceblock-info">
+                <h2>Frequently Used Wash & Fold Services</h2>
+                <p>Here a quick list of our frequently requested dry cleaning services.
+                </p>
+                <img src="<?php $this->url('bag2.png', 'img', true) ?>" alt="">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <ul class="serviceblock-pricing">
+                    <li>
+                        Regular Laundry
+                        <span class="serviceblock-cost">$1.35 / lb</span>
+                    </li>
+                    <li>
+                        Bedding - Mattress
+                        <span class="serviceblock-accent">Duvet Cover</span>
+                        <span class="serviceblock-cost">$10.00</span>
+                    </li>
+                    <li>
+                        Bedding
+                        <span class="serviceblock-accent">Comforter</span>
+                        <span class="serviceblock-cost">$15.00</span>
+                    </li>
+                    <li>
+                        Bedding - Blanket
+                        <span class="serviceblock-accent">Throw</span>
+                        <span class="serviceblock-cost">$10.00</span>
+                    </li>
+                    <li class="has-break">
+                        Bath Mat
+                        <span class="serviceblock-cost">$5.00</span>
+                    </li>
+                    <li>
+                        Hand Dry
+                        <span class="serviceblock-accent">First 4 items</span>
+                        <span class="serviceblock-cost">$2.00</span>
+                    </li>
+                    <li>
+                        Each Additional Hand Dry
+                        <span class="serviceblock-accent">First item</span>
+                        <span class="serviceblock-cost">$1.00</span>
                     </li>
                 </ul>
 				<div class="clearfix"></div>

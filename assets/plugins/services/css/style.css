@@ -71,11 +71,11 @@ hr.separator {
     font-size: 1.3em;
     margin: 20px;
     color: rgb(20, 22, 61);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .serviceblock-info h2 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: rgb(20, 22, 61);
 }
 
@@ -88,13 +88,14 @@ h3.cat {
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 1.5em;
+    color:  rgb(20, 22, 61);
     font-family: 'Fira Sans', sans-serif;
 }
 
 h1.faq-title {
     text-align: center;
-    font-family: 'Fira Sans', sans-serif;
-    color: #03363d;
+    font-family: 'Lato', sans-serif;
+    color:  rgb(20, 22, 61);
     padding: 15px 0;
 }
 
@@ -147,6 +148,9 @@ h2.service-list-title {
     ul.serviceblock-pricing li {
         font-size: 1.2em;
     }
+    ul.serviceblock-pricing {
+        margin: 10px auto 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -161,7 +165,7 @@ h2.service-list-title {
     }
     ul.serviceblock-pricing li {
         font-size: 1em;
-        margin: 0;
+        margin: 15px;
     }
     ul.serviceblock-pricing {
         margin: auto;

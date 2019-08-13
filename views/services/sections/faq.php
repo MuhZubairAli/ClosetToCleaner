@@ -6,7 +6,7 @@ Frequently Asked Questions
         <div class="row">
             <div class="col-md-12">
 
-                <h1 class="faq-title">Frequently Asked Questions, Answered</h1>
+                <h1 class="faq-title">You’ve Got Questions? We’ve Got Answers</h1>
                 <h3 class="cat">GETTING STARTED</h3>
                 <div class="panel-group" id="faqAccordion">
                     <div class="panel panel-default ">

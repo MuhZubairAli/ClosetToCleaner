@@ -113,7 +113,7 @@ jQuery(document).ready(function( $ ) {
           var interval = setInterval(function(){
             console.log("Scrolling Document up by nav bar pixels");
             var y = $(window).scrollTop();
-            $(window).scrollTop(y-78);
+            $(window).scrollTop(y-98);
             clearInterval(interval);
           },1000)
       }

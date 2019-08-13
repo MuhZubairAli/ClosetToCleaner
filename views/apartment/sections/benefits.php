@@ -17,7 +17,7 @@ Benefits Section
                 <br>
                 <p class="st-text margin-top-bottom">
                     Don’t believe us? Just ask to us to show and tell
-                    <br> <a class="btn btn-info btn-sm btn-flat text-center margin-top-bottom" href="<?php $this->url('contact', '', true) ?>">Contact Us</a>
+                    <br> <a class="btn btn-info btn-lg btn-flat text-center margin-top-bottom" href="<?php $this->url('contact', '', true) ?>">Contact Us</a>
                 </p>
             </div>
         </div>

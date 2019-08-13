@@ -12,7 +12,7 @@
                     <ul class="footer-menu">
                         <li><a href="">Services & Pricing</a></li>
                         <li><a href="">Frequently Used Services</a></li>
-                        <li><a href="">Frequently Asked Questions</a></li>
+                        <li><a href="">FAQs</a></li>
                         <li><a href="">Pricing</a></li>
                     </ul>
                 </div>

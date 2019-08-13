@@ -20,7 +20,7 @@ h1.heading {
 }
 h4.sub-heading {
     text-align: justify;
-    text-align-last: center;
+    text-align-last: left;
     font-size: 1.8em;
 }
 #header, #header-sticky-wrapper {
@@ -33,7 +33,7 @@ ul.top-lg li::after {
 
 
 #steps {
-    background: url(/assets/imgs/circle-pattern.png) top center repeat-x;
+    background: url(/assets/imgs/circle-pattern-navy-blue.png) top center repeat-x;
     background-color: #ffffff;
     position: relative;
     padding-top: 170px;
@@ -52,7 +52,7 @@ ul.top-lg li::after {
     display: inline-block;
     border: 1px solid #A1D7D3;
     background: #A1D7D3;
-    color: #03363d;
+    color: #212060;
     width: 120px;
     height: 120px;
     -webkit-border-radius: 60px;
@@ -68,8 +68,8 @@ ul.top-lg li::after {
 
 .step .step-icon:hover{
     color: #ffffff;
-    background: #03363d;
-    border-color: #03363d;
+    background: #212060;
+    border-color: #212060;
     -webkit-box-shadow: 0 0 20px gray;
     -moz-box-shadow: 0 0 20px gray;
     box-shadow: 0 0 20px gray;
@@ -112,7 +112,7 @@ ul.top-lg li::after {
     background-size: cover;
     padding: 80px 0;
     height: auto;
-    min-height: 70vh;
+    min-height: 90vh;
 }
 
 h1.section-title.padding {

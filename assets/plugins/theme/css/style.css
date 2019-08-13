@@ -11,7 +11,10 @@ h1,h2,h3 {
 h4,h5,h6 {
   font-family: 'Fira Sans', sans-serif;
 }
-
+*::selection {
+   background: rgb(247 113 113);
+   color: #fff;
+}
 #video-modal {
     display: none;
     padding-top: 3px;
@@ -274,7 +277,7 @@ div.hero-img img {
 #header {
   background: #ffffff;
   padding: 15px 0;
-  height: 80px;
+  height: 100px;
   -webkit-box-shadow: 0 5px 10px -6px #cccccc;
   -moz-box-shadow: 0 5px 10px -6px #cccccc;
   box-shadow: 0 5px 10px -6px #cccccc;
@@ -287,7 +290,7 @@ div.hero-img img {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 50px;
+  max-height: 70px;
 }
 
 @media (max-width: 768px) {
@@ -379,14 +382,14 @@ div.hero-img img {
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 10px 15px;
+  padding: 20px 15px;
   text-decoration: none;
   display: inline-block;
   color: rgb(20, 22, 61);
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1.2em;
   outline: none;
 }
 
@@ -443,6 +446,12 @@ ul.top-sm.nav-menu li a {
 
 #mobile-nav-toggle i {
   color: #000000;
+}
+
+@media (max-width: 1080px){
+  .nav-menu a {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 768px) {
@@ -592,9 +601,9 @@ h1.section-title {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #dddddd;
-  padding: 30px 0;
-  color: #000;
+  background: url(/assets/imgs/noise-gray.png) repeat;
+  padding: 90px 0 40px 0;
+  color: #fff;
 }
 
 ul.footer-menu, ul.social-media-links {
@@ -610,7 +619,7 @@ ul.footer-menu li {
 }
 
 ul.footer-menu li a {
-    color: #999;
+    color: #aaaaaa;
     font-weight: normal;
     display: inline-block;
     margin-bottom: 5px;
@@ -623,13 +632,13 @@ ul.footer-menu li:first-of-type {
 }
 ul.footer-menu li:first-of-type a {
     font-weight: bold;
-    color: #555;
+    color: #777;
 }
 ul.footer-menu li a:hover {
-    color: #222;
+    color: #fff;
 }
 hr.sm-separator{
-    border-color: #cdcdcd;
+    border-color: #555;
 }
 
 ul.social-media-links {
@@ -649,8 +658,8 @@ ul.social-media-links li a {
     font-size: 1.5em;
     color: #ffffff;
     transition: 0.5s;
-    border: 1px solid #cdcdcd;
-    background: #cdcdcd;
+    border: 1px solid #333;
+    background: #333;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
