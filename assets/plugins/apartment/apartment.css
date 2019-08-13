@@ -1,7 +1,8 @@
 #hero {
     background: #212060;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     color: #ffffff;
+    height: auto;
 }
 
 #hero * {
@@ -254,9 +255,6 @@ p.st-text {
         font-size: 1.2em;
     }
 
-    div.hero-img img {
-        display: none;
-    }
     #our-secret {
         background: linear-gradient(#cccccc, #f7f7f7);
         height: auto;
@@ -267,6 +265,10 @@ p.st-text {
 
 @media (max-width: 991px) {
 
+    h1.heading {
+        text-align: center;
+    }
+
     #our-secret .left-img {
         background: transparent;
     }
@@ -276,6 +278,10 @@ p.st-text {
     #benefits-residents {
         padding: 80px 30px;
         height: auto;
+    }
+    
+    div.hero-img img {
+        display: none;
     }
 }
 
