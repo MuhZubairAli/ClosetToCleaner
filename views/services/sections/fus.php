@@ -72,7 +72,7 @@ frequently used services
         <div class="row">
             <div class="col-md-6 col-sm-12 pull-right serviceblock-info">
                 <h2>Frequently Used Wash & Fold Services</h2>
-                <p>Here a quick list of our frequently requested dry cleaning services.
+                <p>Here a quick list of our frequently requested Wash & Fold services.
                 </p>
                 <img src="<?php $this->url('bag2.png', 'img', true) ?>" alt="">
             </div>

@@ -17,6 +17,7 @@ h4,h5,h6 {
 }
 .btn-green {
   background: rgb(43, 149, 157);
+  border-color: rgb(43, 149, 157);
   padding: 10px 25px;
 }
 .btn-green:hover{
@@ -448,7 +449,11 @@ div.hero-img img {
   outline: none;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+.nav-menu a:hover, .nav-menu li:hover > a {
+  color: rgb(161, 215, 211);
+}
+
+.nav-menu .menu-active > a {
   color: rgb(247,113,113);
 }
 

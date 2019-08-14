@@ -15,7 +15,7 @@ Contact Section
 
                     <div>
                         <h3>DETAILS</h3>
-                        <p style="margin:0 0 10px"><b>Phone #</b><br>
+                        <p><b>Phone #</b><br>
                             1.866.333.4<b>CTC</b> &nbsp
                             (1.866.333.4282)
                         </p>

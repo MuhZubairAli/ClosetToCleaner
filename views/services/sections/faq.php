@@ -42,7 +42,7 @@ Frequently Asked Questions
                                 <ol>
                                     <li>Visit the lockers  located in our apartment community</li>
                                     <li>Ask your Leasing Manager for pick-up and delivery times</li>
-                                    <li>Reach out to us through the Contact Us Page, or give us a call at 1.866.333.4CTC</li>
+                                    <li>Reach out to us through the Contact Us Page, or give us a call at 1.866.333.4CTC (1.866.333.4282)</li>
                                 </ol>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ Frequently Asked Questions
                                 </p>
                                 <ul>
                                     <li>Visit your property managers in the leasing office to see if they have any on hand, OR</li>
-                                    <li>Reach out to us through the Contact Us Page, or call us at 1.866.333.4CTC</li>
+                                    <li>Reach out to us through the Contact Us Page, or call us at 1.866.333.4CTC (1.866.333.4282)</li>
                                 </ul>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ Frequently Asked Questions
                                 <ul>
                                     <li>Reach out to your property managers in the leasing office,</li>
                                     <li>Write to us through our Contact Us page, or,</li>
-                                    <li>Call us at 1.866.333.4CTC</li>
+                                    <li>Call us at 1.866.333.4CTC (1.866.333.4282)</li>
                                 </ul>
                             </div>
                         </div>
@@ -256,7 +256,7 @@ Frequently Asked Questions
                             <ol>
                             <li>Visit the lockers  located in our apartment community</li>
                             <li>Ask your Leasing Manager for pick-up and delivery times</li>
-                            <li>Reach out to us through the Contact Us Page, or give us a call at 1.866.333.4CTC</li>
+                            <li>Reach out to us through the Contact Us Page, or give us a call at 1.866.333.4CTC (1.866.333.4282)</li>
                             </ol>
                             </div>
                         </div>
@@ -272,7 +272,7 @@ Frequently Asked Questions
                         </div>
                         <div id="question16" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                            <p>Should you not receive any article of clothing back or your clothes come back damaged, you are not completely satisfied with your order, or if something went wrong, please contact our friendly customer support staff immediately. We can be reached at 1.866.333.4CTC or on our <a href="/contact">Contact Us</a> page.</li>
+                            <p>Should you not receive any article of clothing back or your clothes come back damaged, you are not completely satisfied with your order, or if something went wrong, please contact our friendly customer support staff immediately. We can be reached at 1.866.333.4CTC (1.866.333.4282) or on our <a href="/contact">Contact Us</a> page.</li>
                             </div>
                         </div>
                     </div>

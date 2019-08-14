@@ -12,9 +12,9 @@ class Mail
 {
     private $useLocal;
     private $recipient;
-    private $recipientName;//'edward.burton@closettocleaners.com'
-    function __construct($recipient = 'muhzubairali@gmail.com',
-                         $recipientName='Muhammad Zubair',
+    private $recipientName;
+    function __construct($recipient = 'edward.burton@closettocleaners.com',
+                         $recipientName='Edward Burton',
                          $local = true)
     {
         $this->useLocal = $local;
